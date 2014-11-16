@@ -1224,7 +1224,7 @@ function! <SID>ResizeWindow()
 
   endif
 
-  normal! zz
+  "normal! zz
 
   let &report  = l:save_rep
   let &showcmd = l:save_sc
